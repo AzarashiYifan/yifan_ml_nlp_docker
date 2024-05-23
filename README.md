@@ -36,3 +36,45 @@ my-ml-project/
 4. Access JupyterLab
 - Open a web browser and navigate to http://localhost:8888 to access JupyterLab.
 - Or connect to localhost:8888 in the JupyterLab desktop application.
+
+
+## Updating Dependencies
+If you need to update the dependencies listed in the Pipfile:
+
+1. Edit the Pipfile with your changes.
+
+2. Rebuild the Docker image
+   ```sh
+   docker build -t yifan_ml_nlp_image .
+   
+3. Run the updated Docker container
+   ```sh
+   docker rm -f ml_nlp_container
+   docker run -it -p 8888:8888 -v $(pwd)/workdir:/app --name ml_nlp_container yifan_ml_nlp_image
+
+
+## Included Libraries
+
+The following libraries are included in the environment:
+
+JupyterLab
+Python-Dateutil
+Requests
+Matplotlib
+Pandas
+Numpy
+Joblib
+Scipy
+Seaborn
+Scikit-Learn
+Threadpoolctl
+Pymatgen
+MP-API
+Wordcloud
+Transformers
+Sudachipy
+YouTube Transcript API
+Gensim
+PyLDAvis
+NetworkX
+OpenAI
