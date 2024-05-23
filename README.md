@@ -52,29 +52,28 @@ If you need to update the dependencies listed in the Pipfile:
    docker rm -f ml_nlp_container
    docker run -it -p 8888:8888 -v $(pwd)/workdir:/app --name ml_nlp_container yifan_ml_nlp_image
 
-
 ## Included Libraries
 
 The following libraries are included in the environment:
 
-JupyterLab
-Python-Dateutil
-Requests
-Matplotlib
-Pandas
-Numpy
-Joblib
-Scipy
-Seaborn
-Scikit-Learn
-Threadpoolctl
-Pymatgen
-MP-API
-Wordcloud
-Transformers
-Sudachipy
-YouTube Transcript API
-Gensim
-PyLDAvis
-NetworkX
-OpenAI
+JupyterLab  
+Python-Dateutil  
+Requests  
+Matplotlib  
+Pandas  
+Numpy  
+Joblib  
+Scipy  
+Seaborn  
+Scikit-Learn  
+Threadpoolctl  
+Pymatgen  
+MP-API  
+Wordcloud  
+Transformers  
+Sudachipy  
+YouTube Transcript API  
+Gensim  
+PyLDAvis  
+NetworkX  
+OpenAI  
