@@ -15,11 +15,14 @@ ENV PATH="/root/.cargo/bin:${PATH}"
 # Set the working directory
 WORKDIR /app
 
-# Copy the Pipfile and Pipfile.lock
-COPY Pipfile Pipfile.lock /app/
+# Copy the Pipfile and Pipfile.lock (if you have a Pipfile.lock already)
+COPY Pipfile /app/
 
 # Install pipenv
 RUN pip install pipenv
+
+# Generate Pipfile.lock
+RUN pipenv lock
 
 # Install dependencies using pipenv with verbose output
 RUN pipenv install --system --deploy --verbose
