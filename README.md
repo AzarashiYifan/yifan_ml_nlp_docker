@@ -1,8 +1,4 @@
 # yifan_ml_nlp_docker
-Builds the docker container necessary for basic ML and NLP on Python 3.11.0
-
-# ML & NLP Docker Environment
-
 This repository contains a Docker environment setup for running machine learning and natural language processing (NLP) projects. The environment is configured with Python 3.11.0, JupyterLab, and various essential libraries.
 
 ## Project Structure
