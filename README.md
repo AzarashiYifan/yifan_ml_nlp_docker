@@ -20,20 +20,22 @@ my-ml-project/
 
 ### Setup Instructions
 
-1. **Clone the repository**
+1. **Navigate to your desired base directory (for example Documents)**
+   cd Documents
+3. **Clone the repository**
    ```sh
    git clone https://github.com/AzarashiYifan/yifan_ml_nlp_docker.git
    cd yifan_ml_nlp_docker
 
-2. **Build the Docker image**
+4. **Build the Docker image**
    ```sh
    docker build -t yifan_ml_nlp_image .
 
-3. **Run the Docker container**
+5. **Run the Docker container**
    ```sh
    docker run -it -p 8888:8888 -v $(pwd)/workdir:/app --name ml_nlp_container yifan_ml_nlp_image
   
-4. Access JupyterLab
+6. Access JupyterLab
 - Open a web browser and navigate to http://localhost:8888 to access JupyterLab.
 - Or connect to localhost:8888 in the JupyterLab desktop application.
 
