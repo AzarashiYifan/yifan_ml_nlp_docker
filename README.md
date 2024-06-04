@@ -88,3 +88,5 @@ torchvision = "0.18.0"
 langdetect = "1.0.9"    
 lingua-language-detector = "2.0.2"    
 fasttext-langdetect= "1.0.5"    
+
+## Let me know if something is not working!
