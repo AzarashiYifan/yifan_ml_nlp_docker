@@ -21,6 +21,7 @@ my-ml-project/
 ### Setup Instructions
 
 1. **Navigate to your desired base directory (for example Documents)**
+   ```sh
    cd Documents
 3. **Clone the repository**
    ```sh
