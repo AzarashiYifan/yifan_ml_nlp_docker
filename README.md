@@ -22,7 +22,7 @@ my-ml-project/
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/yourusername/my-ml-project.git
+   git clone https://github.com/AzarashiYifan/yifan_ml_nlp_docker.git
    cd my-ml-project
 
 2. **Build the Docker image**
