@@ -90,7 +90,7 @@ lingua-language-detector = "2.0.2"
 fasttext-langdetect= "1.0.5"    
 
 (edited 7/5)
-SudachiDict-full = "20240409"
+SudachiDict-full = "20240409"        
 japanize-matplotlib = "1.1.3"
 
 
