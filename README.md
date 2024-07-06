@@ -87,7 +87,8 @@ The following libraries are included in the environment:
 - mecab-python3 (1.0.9)
 - unidic-lite (1.0.8)
 - ipadic (1.0.0)
-- oseti (0.4.2) (inside dockerfile to avoid dependency issue) 
+- oseti (0.4.2) (inside dockerfile to avoid dependency issue)
+- fugashi (1.3.2)
 
 
 ## Let me know if something is not working!
