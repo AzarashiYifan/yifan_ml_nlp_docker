@@ -59,39 +59,35 @@ If you need to update the dependencies listed in the Pipfile:
 
 The following libraries are included in the environment:
 
-JupyterLab  
-Python-Dateutil  
-Requests  
-Matplotlib  
-Pandas  
-Numpy  
-Joblib  
-Scipy  
-Seaborn  
-Scikit-Learn  
-Threadpoolctl  
-Pymatgen  
-MP-API  
-Wordcloud  
-Transformers  
-Sudachipy  
-YouTube Transcript API  
-Gensim  
-PyLDAvis  
-NetworkX  
-OpenAI  
-
-(edited 6/1)
-torch = "2.3.0"  
-torchaudio = "2.3.0"  
-torchvision = "0.18.0"  
-langdetect = "1.0.9"    
-lingua-language-detector = "2.0.2"    
-fasttext-langdetect= "1.0.5"    
-
-(edited 7/5)
-SudachiDict-full = "20240409"        
-japanize-matplotlib = "1.1.3"
+- Python-Dateutil (2.9.0)
+- Requests (2.32.2)
+- Matplotlib (3.9.0)
+- Pandas (2.2.2)
+- Numpy (1.26.4)
+- Joblib (1.4.2)
+- Scipy (1.12.0)
+- Seaborn (0.13.2)
+- Scikit-Learn (1.5.0)
+- Threadpoolctl (3.5.0)
+- Pymatgen (2024.5.1)
+- MP-API (0.41.2)
+- Wordcloud (1.9.3)
+- Transformers (4.41.0)
+- Sudachipy (0.6.8)
+- YouTube Transcript API (0.6.2)
+- Gensim (4.3.2)
+- PyLDAvis (3.4.1)
+- NetworkX (3.3)
+- OpenAI (1.30.1)
+- torch (2.3.0)
+- torchaudio (2.3.0)
+- torchvision (0.18.0)
+- SudachiDict-full (20240409)
+- japanize-matplotlib (1.1.3)
+- mecab-python3 (1.0.9)
+- unidic-lite (1.0.8)
+- ipadic (1.0.0)
+- oseti (0.4.2) (inside dockerfile to avoid dependency issue) 
 
 
 ## Let me know if something is not working!
