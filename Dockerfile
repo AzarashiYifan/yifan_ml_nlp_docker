@@ -34,7 +34,7 @@ COPY . /app
 RUN pip install jupyterlab
 
 # Install oseti to resolve piplock issue
-RUN pip install oseti = "0.4.2"
+RUN pip install oseti==0.4.2
 
 # Configure JupyterLab to disable token authentication
 RUN mkdir -p /root/.jupyter && echo "c.NotebookApp.token = ''" >> /root/.jupyter/jupyter_notebook_config.py
